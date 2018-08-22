@@ -10,6 +10,10 @@
     p {
         text-align: justify;
     }
+    h3 .subbab {
+        font-weight: bold;
+        font-style: italic;
+    }
 </style>
 <!-- Heading -->
 <div id="heading" >
@@ -218,8 +222,12 @@
                 <li> The third sub-stage is herniation detection through comparison of spinal disc shape features. Once the area of the spinal disc has been labelled, its shape features can be calculated. These features can then be compared to a sample of normal and abnormal disc shape to ascertain the presence of herniation. </li>
             </p>
             <br>
-            <h3>Phase 2: Data Collection</h3>
-            <p>This stage will involve collecting of Magnetic Resonance Images of lumbar spines of patients with Chronic Lower Back Pain. Due to the limitation of technology in Indonesian hospitals as well as practical considerations in obtaining the data, the source of the data will not be limited to only Indonesian patients but also from others from different parts of the world. The partner researcher at Liverpool John Moores University has extensive links with hospitals around the world to enable gathering of such data. Ethical consideration will be adhered to. The collected data will be expected to be free from any information that could be used to trace the identity of the patients. The sources of this data will also ensure that patients’ consents are obtained prior to their data made available.
+            <h3>Phase 4: Experiment</h3>
+            <p>This stage will apply the algorithm using Matlab and its Image Processing and Machine Learning Toolboxes. Matlab will allow implementation of the algorithm and rapid experimentation on the data set. The experimentation will use reasonably-sized dataset to ensure that the results could be analysed and evaluated statistically
+            </p>
+            <br>
+            <h3>Phase 5: Evaluation</h3>
+            <p>The evaluation of the effectiveness of the proposed methodology will be posed in term of sensitivity and specificity.  For the lumbar disc herniation detection function, the sensitivity refers to the rate of correctly recognize the lower back pain, whereas specificity is to figure out the exact location of the vertebra and disc that cause the pain. The evaluation technique will be done both quantitatively and qualitatively. Quantitatively, this can be assessed by using ground truth data on the system and match the result with the truth value. The outcome can then be compared statistically with those from similar systems. In addition, professional inputs from physicians will be sought to provide a more qualitative feedback on the suitability of the proposed methodology in practical settings.
             </p>
 		</div>
 	</div>
