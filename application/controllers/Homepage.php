@@ -1,10 +1,12 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Welcome extends CI_Controller
+class Homepage extends CI_Controller
 {
     public function index()
     {
-        $this->load->view('homepage');
+        $data['header'] = $this->load->view('templates/header', null, true);
+        $data['footer'] = $this->load->view('templates/footer', null, true);
+        $this->load->view('homepage', $data);
     }
 }
