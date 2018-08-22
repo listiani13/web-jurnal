@@ -21,7 +21,7 @@
 						<section>
 							<div class="content">
 								<header>
-									<a href="#" class="icon fa-search"><span class="label">Icon</span></a>
+									<a href="<?php echo base_url(); ?>aboutResearch" class="icon fa-search"><span class="label">Icon</span></a>
 									<h3>About Research</h3>
 								</header>
 								<p>This research is a collaborative project between Universitas Multimedia Nusantara (Indonesia) and Liverpool John Moores University (United Kingdom) in the area of medical image analysis and processing.</p>
@@ -30,7 +30,7 @@
 						<section>
 							<div class="content">
 								<header>
-									<a href="#" class="icon fa-line-chart"><span class="label">Icon</span></a>
+									<a href="<?php echo base_url(); ?>projectPhases" class="icon fa-line-chart"><span class="label">Icon</span></a>
 									<h3>Project Phases</h3>
 								</header>
 								<p>This section describes the research roadmap and the association with the lead researcher as the proposer in conducting this study described in the future research road map with the long-term scale. </p>
@@ -39,7 +39,7 @@
 						<section>
 							<div class="content">
 								<header>
-									<a href="#" class="icon fa-files-o"><span class="label">Icon</span></a>
+									<a href="<?php echo base_url(); ?>publications" class="icon fa-files-o"><span class="label">Icon</span></a>
 									<h3>Publications</h3>
 								</header>
 								<p>This section describes research outputs, including research reports each year, scientific publications (International Journal Scopus Indexed each year and International Conference each year), and the presence of methods and algorithms in the second year.</p>
@@ -48,7 +48,7 @@
 						<section>
 							<div class="content">
 								<header>
-									<a href="#" class="icon fa-database"><span class="label">Icon</span></a>
+									<a href="<?php echo base_url(); ?>data" class="icon fa-database"><span class="label">Icon</span></a>
 									<h3>Data</h3>
 								</header>
 								<p>Visitors can preview and download research data.</p>
@@ -57,7 +57,7 @@
 						<section>
 							<div class="content">
 								<header>
-									<a href="#" class="icon fa-paper-plane-o"><span class="label">Icon</span></a>
+									<a href="<?php echo base_url(); ?>results" class="icon fa-paper-plane-o"><span class="label">Icon</span></a>
 									<h3>Results</h3>
 								</header>
 								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
@@ -66,7 +66,7 @@
 						<section>
 							<div class="content">
 								<header>
-									<a href="#" class="icon fa-angle-double-right"><span class="label">Icon</span></a>
+									<a href="<?php echo base_url(); ?>futureResearch" class="icon fa-angle-double-right"><span class="label">Icon</span></a>
 									<h3>Future Research</h3>
 								</header>
 								<p>This section explains future research and this project's phase 2.</p>
