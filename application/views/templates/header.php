@@ -12,7 +12,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/main_styles.php" />
+		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/main.css" />
 	</head>
 	<body class="is-preload">
 
@@ -20,13 +20,13 @@
 			<header id="header">
 				<a class="logo" href="index.html">CLBP</a>
 				<nav>
-					<a href="#menu">Home</a>
-					<a href="#menu">About Research</a>
-					<a href="#menu">Project Phases</a>
-					<a href="#menu">Publications</a>
-					<a href="#menu">Data</a>
-					<a href="#menu">Results</a>
-					<a href="#menu">Future Research</a>
+					<a href="<?php echo base_url(); ?>homepage" class="menu">Home</a>
+					<a href="<?php echo base_url(); ?>aboutResearch" class="menu">About Research</a>
+					<a href="<?php echo base_url(); ?>projectPhases" class="menu">Project Phases</a>
+					<a href="<?php echo base_url(); ?>publications" class="menu">Publications</a>
+					<a href="<?php echo base_url(); ?>data" class="menu">Data</a>
+					<a href="<?php echo base_url(); ?>results" class="menu">Results</a>
+					<a href="<?php echo base_url(); ?>futureResearch" class="menu">Future Research</a>
 				</nav>
 			</header>
 
