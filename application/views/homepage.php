@@ -130,7 +130,24 @@
 									<div class="image">
 										<img src="<?php echo base_url(); ?>assets/images/pic02.jpg" alt="" />
 									</div>
+<<<<<<< Updated upstream
 									<p class="credit">- <strong>Janet Smith</strong> <span>CEO - ABC Inc.</span></p>
+=======
+									<p class="credit"><strong>Nunik Afriliana S.Kom., MMSI </strong> <br> <span>Co-Investigator II</span></p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<blockquote>
+									<p>Sud is active in conducting research within the school. His research interests include Image Compression and Retrieval, Computer Vision and Machine Learning, Artificial Intelligence in Games and Digital Watermarking. He is a member of technical committee for several regional and international conferences and has reviewed a number of scientific papers for conferences and journals since 2003.</p>
+								</blockquote>
+								<div class="author">
+									<div class="image">
+										<img class="author-avatar" src="<?php echo base_url(); ?>assets/images/research-team/sud-sudirman.jpg" alt="" />
+									</div>
+									<p class="credit"><strong>Dr. Sud Sudirman B.Eng (Hons), Ph.D FHEA</strong> <br> <span>UK Principal Investigator</span></p>
+>>>>>>> Stashed changes
 								</div>
 							</div>
 						</section>
